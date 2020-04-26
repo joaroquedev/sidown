@@ -2,9 +2,6 @@
 > Um simples script para baixar arquivos públicos em websites.
 > Wordlist personalizaveis e muito simples.
 
-[![Python Version][python-image]][python-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][python-downloads]][python-url]
 
 Um simples script que fiz em python para fortalecer meu conhecimento em request.
 
@@ -26,12 +23,12 @@ Alguns exemplos básicos de como usar.
 
 _Veja abaixo uma lista de screenshots._ 
 * __Banner__
-![](.../screenshots/open.png)
-![](.../screenshots/menu.png)
-* -__Find Css__
-![](.../screenshots/css.png)
+![](./screenshots/open.png)
+![](./screenshots/menu.png)
+* __Find Css__
+![](./screenshots/css.png)
 * __Find Admin__
-![](.../screenshots/admin.png)
+![](./screenshots/admin.png)
 
 ## Meta
 
