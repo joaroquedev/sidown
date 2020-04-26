@@ -8,7 +8,7 @@
 
 Um simples script que fiz em python para fortalecer meu conhecimento em request.
 
-![](../screenshots/banner.png)
+![](./screenshots/banner.png)
 
 ## Instalação
 
@@ -25,18 +25,20 @@ python3 sidown.py
 Alguns exemplos básicos de como usar.
 
 _Veja abaixo uma lista de screenshots._ 
--__Banner__
-![](../screenshots/open.png)
-![](../screenshots/menu.png)
--__Find Css__
-![](../screenshots/css.png)
--__Find Admin__
-![](../screenshots/admin.png)
+* __Banner__
+![](.../screenshots/open.png)
+![](.../screenshots/menu.png)
+* -__Find Css__
+![](.../screenshots/css.png)
+* __Find Admin__
+![](.../screenshots/admin.png)
 
 ## Meta
 
 Joa Roque – [@joaroquedev](https://facebook.com/100025057463273) – haguacomh@gmail.com
+
 [Joa Roque](https://github.com/joaroquedev)
+
 [Programadore Angolano](https://www.programadorangolano.com)
 
 ## Contributing
