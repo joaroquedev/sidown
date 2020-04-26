@@ -1,0 +1,17 @@
+bootstrap.js
+bootstrap.min.js
+jquery.js
+jquery.min.js
+jquery-3.1.1.min.js
+jquery.cookie.js
+jquery.mask.min.js
+jquery.mask.js
+please-wait.mn.js
+popper.min.js
+scroll.js
+sweetalert.js
+sweetalert.min.js
+vide.min.js
+video.js
+reset.js
+vue.js

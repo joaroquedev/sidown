@@ -1,0 +1,12 @@
+images
+imagens
+img
+image
+assets/img
+assets/images
+assets/imagens
+assets/image
+fotos
+assets/imagens/png
+assets/imagens/svg
+galeria

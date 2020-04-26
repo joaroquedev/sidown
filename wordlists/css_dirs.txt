@@ -1,0 +1,9 @@
+assets/css/
+css/
+stylesheats/
+stylesheat/
+estilos/
+wp-content/
+asset/
+css/
+wp-content/themes/assets/css/

@@ -1,0 +1,4 @@
+fonts
+fontes
+assets/fonts
+awsemone-fonts

@@ -1,0 +1,9 @@
+admin
+administrator
+admins
+administrador
+cpanel
+paneladmin
+ĺogin
+private
+wp-admin.php
