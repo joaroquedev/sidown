@@ -23,11 +23,16 @@ Alguns exemplos básicos de como usar.
 
 _Veja abaixo uma lista de screenshots._ 
 * __Banner__
+
 ![](./screenshots/open.png)
 ![](./screenshots/menu.png)
+
 * __Find Css__
+
 ![](./screenshots/css.png)
+
 * __Find Admin__
+
 ![](./screenshots/admin.png)
 
 ## Meta
