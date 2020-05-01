@@ -47,12 +47,12 @@ banner = """
 #-------------LIMPATELA-------------#
 def clearScr():
 	os.system('clear')
-	pass
+	
 
 #-------------SAI-DO-PROGRAMA-------------#
 def exit():
 	os.system('exit')
-	pass
+	
 
 
 #-------------BANNER&MENU-------------#
@@ -64,7 +64,7 @@ def menu():
 	print("\t"+abrir+ops[1]+fechar+" find css files     "+abrir+ops[5]+fechar+" find htaccess")
 	print("\t"+abrir+ops[2]+fechar+" find js files      "+abrir+ops[6]+fechar+" find admin")
 	print("\t"+abrir+ops[3]+fechar+" find fonts         "+abrir+ops[7]+fechar+" about & exit")
-	pass
+	
 
 #-------------BAIXA-ARQUIVO-------------#
 def down(m, nome=None):
@@ -72,21 +72,17 @@ def down(m, nome=None):
 
 	if nome is None:
 		nome = os.path.basename(m.split("?")[0])
-		pass
+	
 	file_res = requests.get(m, stream=True)
 	if file_res.status_code == requests.codes.OK:
 		with open(nome, 'wb') as novo_arquivo:
 			for parte in file_res.iter_content(chunk_size=256):
 				novo_arquivo.write(parte)
-				pass
-			pass
-		pass
+	
 		print("\r    Downlod {}".format(nome))
 	else:
 		file_res.raise_for_status()
-		pass
-	pass
-
+	
 
 #-------------ACHA OS DIRECTÓRIOS E ARQUIVOS DENTRO-------------#
 def find(url,dirs_txt,files_txt):
@@ -123,7 +119,7 @@ def find(url,dirs_txt,files_txt):
 					down(sub_target)
 
 					#---BAIXA ARQUVIO
-					pass
+	
 				else:
 					#print("Bad file")
 					pass
@@ -137,7 +133,7 @@ def find(url,dirs_txt,files_txt):
 	back2menu = str(input("\nBack to menu(Y/N): "))
 	if back2menu.upper() == "Y":
 		main()
-		pass
+	
 	else:
 		exit()
 		pass
@@ -157,7 +153,7 @@ def find_single(url,wordlists):
 
 		if respnse.status_code == 200:
 			print("\nFILE FOUND: {}".format(target))
-			pass
+	
 		else:
 			pass
 		pass
@@ -165,7 +161,7 @@ def find_single(url,wordlists):
 		back2menu = str(input("\nBack to menu(Y/N): "))
 		if back2menu.upper() == "Y":
 			main()
-			pass
+	
 		else:
 			exit()
 			pass
@@ -184,7 +180,7 @@ def find_admin(url, wordlists):
 		response = requests.get(target)
 		if response.status_code == 200:
 			print("ADMIN FOUND: {}".format(target))
-			pass
+	
 		else:
 			pass
 		pass
@@ -192,7 +188,7 @@ def find_admin(url, wordlists):
 	back2menu = str(input("\nBack to menu(Y/N): "))
 	if back2menu.upper() == "Y":
 		main()
-		pass
+	
 	else:
 		exit()
 		pass
@@ -260,7 +256,7 @@ def main():
 if __name__ == '__main__':
 	try:
 		main()
-		pass
+	
 	except KeyboardInterrupt:
 		print("\n\nFIM DA EXECUÇÃO...\n")
 		pass
