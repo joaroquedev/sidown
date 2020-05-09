@@ -68,7 +68,6 @@ def menu():
 
 #-------------BAIXA-ARQUIVO-------------#
 def down(m, nome=None):
-	#m="http://unitel.ao/hi.html"
 
 	if nome is None:
 		nome = os.path.basename(m.split("?")[0])
@@ -79,7 +78,7 @@ def down(m, nome=None):
 			for parte in file_res.iter_content(chunk_size=256):
 				novo_arquivo.write(parte)
 	
-		print("\r    Downlod {}".format(nome))
+		print("\r    Download {}".format(nome))
 	else:
 		file_res.raise_for_status()
 	
